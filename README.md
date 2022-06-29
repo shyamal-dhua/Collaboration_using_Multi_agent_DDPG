@@ -79,7 +79,7 @@ for executing the code.
   ```
 11. The model parameters get stored in the folder `Collaboration_using_Multi_agent_DDPG/checkpoints/`. The checkpoints get stored for any network scoring above +0.5. Our best trained checkpoints are kept in the folder `Collaboration_using_Multi_agent_DDPG/best_checkpoints/`. The plots for the training get stored in `Collaboration_using_Multi_agent_DDPG/plots/`.
 
-12. The Jupyter notebook solution for MADDPG `collab_compet_maddpg.ipynb` and the project report `Report.ipynb` are present in the folder `Collaboration_using_Multi_agent_DDPG/report/`.
+12. The Jupyter notebook solutions for MADDPG `collab_compet_maddpg.ipynb`, DDPG `collab_compet_ddpg.ipynb` and the project report `Report.ipynb` are present in the folder `Collaboration_using_Multi_agent_DDPG/report/`. The DDPG solution is present in the folder `Collaboration_using_Multi_agent_DDPG/ddpg_solution/`.
 
 13. We have trained the agents using both DDPG and Multi-agent DDPG i.e. MADDPG algorithms. The resultant training plots are as shown below,
 
