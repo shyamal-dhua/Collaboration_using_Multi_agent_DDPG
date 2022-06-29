@@ -87,15 +87,15 @@ for executing the code.
 
 The first plot is for normal DDPG, and the second one is using MADDPG. We can see that DDPG gives a much better training score compaed to MADDPG. The DDPG solution of +0.5 was reached in around 2492 episodes, while same for MADDPG was reached in 12380 episodes. DDPG received a maximum training score of +2.5310, while MADDPG received a maximum of +0.5230. Even then, the MADDPG solution was able to achieve similar performance in test as DDPG, as shown below. Both DDPG and MADDPG agents receive a score of +2.6 during test and never let the ball touch the ground.      
 
-13. Below is how the agents were acting without training. The agents take random actions. 
+14. Below is how the agents were acting without training. The agents take random actions. 
 
 https://user-images.githubusercontent.com/40301650/176344695-507171c7-6c4d-4f8a-9bd0-c19f290dd994.mp4
 
-14. After training, the MADDPG solution looks as below. The agents successfully learn to keep the ball from falling.
+15. After training, the MADDPG solution looks as below. The agents successfully learn to keep the ball from falling.
 
 https://user-images.githubusercontent.com/40301650/176345582-3bf7668d-ba32-411b-8cb2-106fe8efe795.mp4
 
-15. After training, the DDPG solution looks as below. The agents successfully learn to keep the ball from falling.
+16. After training, the DDPG solution looks as below. The agents successfully learn to keep the ball from falling.
 
 https://user-images.githubusercontent.com/40301650/176355984-ba53e51d-1d77-4d2c-9755-2133f54a2c30.mp4
 
