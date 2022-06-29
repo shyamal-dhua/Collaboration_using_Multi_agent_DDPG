@@ -68,7 +68,7 @@ for executing the code.
   python main.py --n_episodes 20000 --max_t 200 --batch_size 256 --eps_start 1 --eps_end 0.01 --eps_decay 0.995
   ```
 
-9. Similarly follow the below instruction for testing. We need to provide a checkpoint file for both the actor and critic networks for this. 
+9. Similarly follow the below instruction for testing. We need to provide a checkpoint file for the actor and critic networks of both agents for this. 
   ```bash
   python main.py --evaluate_actor0 best_checkpoints/checkpoint_actor0_maddpg.pth --evaluate_critic0 best_checkpoints/checkpoint_critic0_maddpg.pth --evaluate_actor1 best_checkpoints/checkpoint_actor1_maddpg.pth --evaluate_critic1 best_checkpoints/checkpoint_critic1_maddpg.pth
   ```
