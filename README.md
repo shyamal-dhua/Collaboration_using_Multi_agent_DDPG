@@ -83,7 +83,7 @@ for executing the code.
 
 13. We have trained the agents using both DDPG and Multi-agent DDPG i.e. MADDPG algorithms. The resultant training plots are as shown below,
 
-<img src="docs/training_plot_maddpg.jpg" width="432" height="288"> <img src="docs/training_plot_maddpg.jpg" width="432" height="288">
+<img src="docs/training_plot_maddpg.jpg" width="350" height="288"> <img src="docs/training_plot_maddpg.jpg" width="350" height="288">
 
 The first plot is for normal DDPG, and the second one is using MADDPG. We can see that DDPG gives a much better training score of over +2.0 in only 4000 episodes, while with MADDPG we could reach only till 0.5230 maximum score. The DDPG solution of +0.5 was reached in around 2500 episodes, while same for MADDPG was reached in around 12380 episodes. Even then the MADDPG solution was able to achieve similar performance in test as DDPG, as shown below. Both DDPG and MADDPG agents receive a  score of +2.6 during test and never let the ball touch the ground.      
 
