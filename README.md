@@ -82,7 +82,14 @@ for executing the code.
 12. The Jupyter notebook solution for MADDPG `collab_compet_maddpg.ipynb` and the project report `Report.ipynb` are present in the folder `Collaboration_using_Multi_agent_DDPG/report/`.
 
 13. Below is how the agents were acting without training. The agents take random actions. 
+
 https://user-images.githubusercontent.com/40301650/176344695-507171c7-6c4d-4f8a-9bd0-c19f290dd994.mp4
+
+14. After training, the MADDPG solution looks as below. The agents successfully learn to keep the ball from falling.
+
+https://user-images.githubusercontent.com/40301650/176345582-3bf7668d-ba32-411b-8cb2-106fe8efe795.mp4
+
+
 
 
 
